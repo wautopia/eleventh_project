@@ -6,7 +6,8 @@ import Footer from '../ViewModel/footer';
 function Toppage() {
     return (
         <div className="Toppage">
-            <Window/>
+            <Window />
+            <Header/>
            
         </div>
     )

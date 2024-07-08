@@ -5,7 +5,7 @@ import Toppage from './View/Toppage';
 function App() {
   return (
       <BrowserRouter>
-          <div className="App">
+          <div className="App text-center">
               <Routes>
                   <Route path='/' element={<Toppage />} />
               </Routes>
