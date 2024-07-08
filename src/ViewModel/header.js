@@ -6,7 +6,6 @@ import SideVisuals from '../Model/h_side_visuals';
 import Aku from '../Model/h_logo_aku';
 import Visual from '../Model/h_visual';
 
-
 function Header() {
     return (
         <>
