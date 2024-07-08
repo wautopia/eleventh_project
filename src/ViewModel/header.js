@@ -20,7 +20,7 @@ function Header() {
                     <Bluray />
                     <Visual/>
                 </div>
-                    <Aku/>  
+                <Aku/>  
             </div>
             <Bg />
         </>
