@@ -5,7 +5,7 @@ import side03 from '../Media/header/h_side03.jpg';
 
 function SideVisuals() {
     return (
-        <div className="mt-5 ">
+        <div className="mt-5">
             <SideVisual img={side01} />
             <div className="mt-3">
                 <SideVisual img={side02} />

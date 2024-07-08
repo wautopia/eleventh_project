@@ -17,12 +17,10 @@ function Header() {
                         <SideItems />
                         <SideVisuals/>
                     </div>
-                    
                     <Bluray />
                     <Visual/>
-                    
-
                 </div>
+                    <Aku/>  
             </div>
             <Bg />
         </>

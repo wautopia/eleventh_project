@@ -4,7 +4,7 @@ import sideStripe from '../Media/header/h_side_stripe.svg';
 function SideItems() {
     return (
         <div className=" position-relative" style={{ marginTop: '2em', maxWidth:'288px' }}>
-            <img src={sideStripe} style={{ height: '65vh' }} alt=""></img>
+            <img src={sideStripe} style={{ height: '68vh' }} alt=""></img>
             <div className="position-absolute top-0" style={{ maxWidth:'190px', left:'20%' }}>
                 <SideItem item="オシラセ" itemInEn="NEWS" />
                 <div className="pt-3">
