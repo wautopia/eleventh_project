@@ -7,7 +7,8 @@ function Toppage() {
     return (
         <div className="Toppage">
             <Window />
-            <Header/>
+            <Header />
+            <Main/>
            
         </div>
     )
