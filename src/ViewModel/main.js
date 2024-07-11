@@ -6,7 +6,9 @@ import Twitter from '../Model/m_twitter';
 function Main() {
     return (
         <>
-            <Stripe />
+            
+                <Stripe />
+            
             <div className="position-relative" style={{ margin: '0 auto', }}>
                 <Notice />
                 <Twitter/>
