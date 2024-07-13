@@ -2,7 +2,7 @@ import NoticeProps from './m_p_notice';
 function Notice() {
     return (
         <>
-            <div className="position-absolute top-0" style={{ width: '35%', left: '12%', transform: 'rotate(-2deg)' }}>
+            <div className="position-relative" style={{ width: '35%', left: '12%', transform: 'rotate(-2deg)' }}>
                 <p className="fs-1 text-start text-white m-0">オシラセ</p>
                 <div style={{ border: '3px solid #e20c13', maxWidth: '675px' }}>
                     <div className="m-4">
