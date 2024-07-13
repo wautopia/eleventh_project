@@ -13,12 +13,6 @@ function Stripe() {
     const akudamadriveRef = useRef();
 
     useGSAP(() => {
-        //gsap.to(trigger.current, {
-        //    scrollTrigger: {
-        //        trigger: trigger.current,
-        //        toggleActions: 'restart reverse',
-        //    },
-        //})
 
         gsap.fromTo(akudamadriveRef.current, {
             
@@ -62,7 +56,7 @@ function Stripe() {
             xPercent: -2,
             yPercent: -76,
             rotation: 5,
-            delay: 0.6,
+            delay: 0.7,
             scrollTrigger: {
                 trigger: infoRef.current,
                 toggleActions: 'restart none none none',
@@ -71,7 +65,7 @@ function Stripe() {
     });
 
     return (
-        <div className="z-5" >
+        <>
             <div
                 ref={akudamadriveRef}
                 className="position-relative z-3"
@@ -154,7 +148,7 @@ function Stripe() {
                     }} 
                 >オシラセ&ツイッター</p>
             </div>
-        </div>
+        </>
     )
 }
 export default Stripe;
