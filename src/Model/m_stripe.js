@@ -65,7 +65,7 @@ function Stripe() {
     });
 
     return (
-        <>
+        <div className="d-none d-lg-block">
             <div
                 ref={akudamadriveRef}
                 className="position-relative z-3"
@@ -88,12 +88,12 @@ function Stripe() {
                         background: 'linear-gradient(to right, rgba(225, 0, 0, 1) 0%, rgba(239, 60, 0, 1) 100%)',
                         left: '91px',
                         transform: 'skewX(-36deg)',
-                        width:'36%',
+                        width:'700px',
                     }}
                 ></div>
                 <img
                     className="position-absolute top-0 h-100 py-2 px-4 " alt=""
-                    style={{ left: '91px', width: '36%', } }
+                    style={{ left: '91px', width: '698px', } }
                     src={akudamaWh}
                 ></img>
             </div>
@@ -137,18 +137,18 @@ function Stripe() {
                         background: 'linear-gradient(to right, rgba(236, 47, 0, 1) 0%, rgba(241, 71, 0, 1) 100%)',
                         left: '700px',
                         transform: 'skewX(-36deg)',
-                        width: '16%',
+                        width: '315px',
                     }}
                 ></div>
                 <p
                     className="position-absolute text-white m-0 px-3 " alt=""
                     style={{
                         fontSize: '235%',
-                        left: '700px',
+                        left: '702px',
                     }} 
                 >オシラセ&ツイッター</p>
             </div>
-        </>
+        </div>
     )
 }
 export default Stripe;

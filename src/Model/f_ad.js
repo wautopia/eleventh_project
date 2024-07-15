@@ -7,11 +7,37 @@ import stage from '../Media/footer/f_stageSite.jpg';
 function Ad() {
     return (
         <>
-            <div className="mx-auto mt-5 d-flex justify-content-center">
+            <div className="d-none d-xl-block">
+                <div className="mx-auto mt-5 d-flex justify-content-center">
+                    <AdProps img={renta} />
+                    <AdProps img={pielo} />
+                    <AdProps img={tygames} />
+                    <AdProps img={stage} />
+                </div>
+            </div>
+            <div className=" d-none d-md-block d-xl-none ">
+                <div className="mx-auto mt-5 d-flex flex-wrap justify-content-center">
                 <AdProps img={renta} />
                 <AdProps img={pielo} />
                 <AdProps img={tygames} />
                 <AdProps img={stage} />
+                </div>
+            </div>
+            <div className="d-none d-sm-block d-md-none">
+                <div className="mx-auto mt-5 d-flex flex-column align-items-center">
+                    <AdProps img={renta} />
+                    <AdProps img={pielo} />
+                    <AdProps img={tygames} />
+                    <AdProps img={stage} />
+                </div>
+            </div>
+            <div className="d-block d-sm-none">
+                <div className="mx-auto mt-5 d-flex flex-column align-items-center">
+                    <AdProps img={renta} />
+                    <AdProps img={pielo} />
+                    <AdProps img={tygames} />
+                    <AdProps img={stage} />
+                </div>
             </div>
         </>
     )

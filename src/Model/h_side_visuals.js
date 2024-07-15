@@ -17,10 +17,10 @@ function SideVisuals() {
             </div>
             <div className="mt-4 d-none d-md-block d-xxl-none">
                 <SideVisual img={side01} />
-                <div className="mt-3">
+                <div className="mt-4">
                     <SideVisual img={side02} />
                 </div>
-                <div className="mt-3">
+                <div className="mt-4">
                     <SideVisual img={side03} />
                 </div>
             </div>

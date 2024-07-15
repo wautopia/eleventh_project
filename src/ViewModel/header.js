@@ -38,8 +38,8 @@ function Header() {
                 </div>
                 <Aku />   
             </div>
-            <div style={{}} className="position-absolute z-1 w-100 d-block d-md-none">
-                <img src={bg} className="position-absolute z-0 w-100 h-100 top-0 start-0 mb-2 " style={{ }} alt=""></img>
+            <div style={{}} className="position-relative z-1 w-100 d-block d-md-none">
+                <img src={bg} className="position-absolute z-0 w-100 top-0 start-0 mb-2 " style={{ height:'101%' }} alt=""></img>
                     <div className="m-auto position-relative " style={{ maxWidth: '1373px' }}>
                         <div className="col-12 position-relative  " style={{  }}>
                             <Visual />
