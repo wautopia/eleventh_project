@@ -6,11 +6,11 @@ import Footer from '../ViewModel/footer';
 function Toppage() {
     return (
         <div className="Toppage overflow-hidden">
-            <div className="" style={{ backgroundColor: `rgba(0,0,0,0.6)` }}>
-            <Window />
-            <Header />
-            <Main />
-            <Footer/>
+            <div style={{ backgroundColor: `rgba(0,0,0,0.6)` }}>
+                <Window />
+                <Header />
+                <Main />
+                <Footer/>
             </div>
            
         </div>
