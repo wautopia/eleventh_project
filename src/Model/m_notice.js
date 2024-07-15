@@ -72,7 +72,7 @@ function Notice() {
             </div>
             <div className=" d-block d-md-none mx-4">
                 <p className="fs-1 text-start text-white pt-5 mb-1">オシラセ</p>
-                <div style={{ border: '3px solid #e20c13', maxWidth: '675px' }}>
+                <div style={{ border: '3px solid #e20c13', width: '100%' }}>
                     <div className="my-5 mx-3">
                         <div className="overflow-auto" style={{ height: '631px', }}>
                             <NoticeProps date="2023/11/21" imp="NEW" content="『アクダマドライブ』全話収録Blu-ray発売記念！キャストサイン入りグッズが当たるWeb抽選会開催決定！" />

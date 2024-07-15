@@ -89,7 +89,7 @@ function Twitter() {
             </div>
             <div className="position-relative  d-block d-md-none mx-4">
                 <p className="fs-1 text-start text-white mb-1">ツイッター</p>
-                <div style={{ border: '3px solid #e20c13', maxWidth: '656px' }}>
+                <div style={{ border: '3px solid #e20c13', width: '100%' }}>
                     <div className="my-5 mx-3">
                         <div className="overflow-auto" style={{ height: '631px', }}>
                             <div className="m-2">
