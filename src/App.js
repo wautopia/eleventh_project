@@ -7,7 +7,7 @@ function App() {
       <BrowserRouter>
           <div className="App text-center">
               <Routes>
-                  <Route path='/' element={<Toppage />} />
+                  <Route exact path='/' element={<Toppage />} />
               </Routes>
           </div>
       </BrowserRouter>
